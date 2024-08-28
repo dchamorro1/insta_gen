@@ -1,6 +1,4 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
+# Press ⌃R to execute script
 # Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
 
 from openai import OpenAI
@@ -55,7 +53,6 @@ if __name__ == '__main__':
 
     # getting the random ayah's information
 
-
     img = myImage.open('generated_images/generated_image.png')
     draw = ImageDraw.Draw(img)
     font_size = 50
@@ -76,7 +73,6 @@ if __name__ == '__main__':
     #  Also I need to get the name of the chapter and #:# associated with it
     #   Then I need to make the prompt of the generation exclude haram images such as depiction of faces and other things that are not allowed in islam
     #   in the end all i need to click is two buttons. one that regenerates text/image and the other that regenerates the image
-
 
     for word_pre in words:
         # Get the width and height of the current word
@@ -101,8 +97,6 @@ if __name__ == '__main__':
     line_text = ""
     max_width = 1024 - 100
     position = (50, (1024 / 2) - 25)
-
-
 
     for word in words:
         # Get the width and height of the current word
