@@ -13,7 +13,7 @@ verse → (chat model writes a scene description) → (image model renders it) �
 
 You can also supply your own background image and skip generation entirely.
 
-![Sample output](docs/sample_output.png)
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/a4764acf-494b-42b8-b087-9ce0cec5a291" />
 
 ## Features
 
